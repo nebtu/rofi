@@ -11,7 +11,7 @@
 
 # Current Theme
 dir="$HOME/.config/rofi/powermenu/type-4"
-theme='style-5'
+theme='style-gruv'
 
 # CMDs
 uptime="`uptime -p | sed -e 's/up //g'`"
@@ -49,7 +49,8 @@ confirm_exit() {
 
 # Pass variables to rofi dmenu
 run_rofi() {
-	echo -e "$lock\n$suspend\n$logout\n$reboot\n$shutdown" | rofi_cmd
+	#echo -e "$lock\n$suspend\n$logout\n$reboot\n$shutdown" | rofi_cmd
+	echo -e "$suspend\n$lock\n$logout\n$reboot\n$shutdown" | rofi_cmd
 }
 
 # Execute Command
