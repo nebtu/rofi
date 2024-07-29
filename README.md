@@ -1,3 +1,12 @@
+This is a forked version of adi1090's rofi themes and applets. I added a new powermenu, launcher, and screenshot applet theme, all done in the gruvbox color scheme, with custom background pictures.
+
+You can see some screenshots here:
+
+![rofi-dmenu](https://github.com/user-attachments/assets/2e1375dc-6a1b-4cf4-a840-7b46a49f78d1)
+![rofi-screenshots](https://github.com/user-attachments/assets/2509f4b9-e2bf-4923-bac7-2d1b37df569c)
+
+
+Original README:
 <!-- A huge collection of Rofi themes -->
 
 <p align="center">
